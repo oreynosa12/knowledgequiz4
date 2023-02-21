@@ -48,3 +48,12 @@ button {
   height: 40px;
   cursor: pointer;
 }
+
+button:focus {
+  outline: none;
+  background-color: #60ed3d;
+}
+
+/* .hide{
+  display::none;
+ } */
