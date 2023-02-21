@@ -5,8 +5,9 @@
 body {
   background-color: dodgerblue;
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 350px;
+  height: 500px;
   overflow: auto;
   margin: 0%;
 }
@@ -26,4 +27,24 @@ h2 {
   padding: 5px;
   text-align: center;
   margin: 0;
+}
+
+ul {
+  list-style: lower-latin;
+  padding: 0;
+}
+
+ul li {
+  font-size: 20px;
+  margin: 20px;
+}
+
+button {
+  background-color: rgb(99, 168, 228);
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  cursor: pointer;
 }
