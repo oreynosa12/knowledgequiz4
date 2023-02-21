@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  overflow: auto;
+  margin: 0%;
+}
+
+.container {
+  background-color: white;
+  border: 1px;
+  border-color: red;
+  border-radius: 10px;
+  width: 500px;
+  overflow: auto;
+}
