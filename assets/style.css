@@ -19,3 +19,11 @@ body {
   width: 500px;
   overflow: auto;
 }
+.quiz-header {
+  padding: 50px;
+}
+h2 {
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+}
